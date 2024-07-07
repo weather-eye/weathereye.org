@@ -7,10 +7,10 @@ The suite consists of the following software (each administered through a tab in
 2. **CDMS**: A system for correctly managing earth system observation data
 3. **WIS2**: Software for the discovery and exchange of real-time data using WIS2
 4. **API**: Secure, standardised APIs to enable the building of compliant reusable solutions
-6. **Portal**: A Content Management System (CMS), fully-integrated to work with the rest of suite of applications to provide a curated window to available data, products and services
+6. **Portal**: A Content Management System (CMS), fully-integrated to work with the rest of the suite of applications to provide curated access to available data, products and services
 
 In addition, the following solutions are planned:
-1. **Tools ⚒️**: A set of tools, unique to WeatherEye, to better manage the integrated set of applications, including tools to correctly update (migrate) database schema, backup all data and to secure and audit applications
+1. **Tools ⚒️**: A set of tools, unique to WeatherEye, to better manage the integrated set of applications, including tools to correctly update (migrate) database schemas, backup all data and to secure and audit applications
 2. **Desktop**: A forecaster desktop solution
 
 WeatherEye builds on existing, high-quality open-source software by integrating these into a single solution with a strong focus on optimising the experience for the user in order to provide accurate and timely weather, climate, and hydrological data management, products and services.
@@ -23,7 +23,7 @@ Each of the free, open-source components are described below.
 
 ### DB
 
-`Status:` Installable from WeatherEye (as part of SURFACE CDMS install)\
+`Status:` Available, but not yet integrated\
 `Powered by:` [CloudBeaver](https://github.com/dbeaver/cloudbeaver) (Apache 2) + PostgreSQL, TimeScaleDB, PostGIS
 
 All of the applications in WeatherEye are underpinned by a free and open-source enterprise-grade database system built on PostgreSQL with extensions for time series (TimescaleDB) and geospatial (PostGIS) data. WeatherEye brings the management of the data associated with each application into a single RDBMS making it easy to secure, backup and maintain.
