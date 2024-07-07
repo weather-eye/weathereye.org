@@ -55,7 +55,7 @@ WeatherEye uses SURFACE CDMS for it's Climate Data Management System implementat
 
 WeatherEye has built-in support to discover, publish and retrieve real-time data from the WIS2 network.
 
-## API
+### API
 
 `Status:` In development\
 `Powered by:` [OpenCDMS](https://github.com/opencdms/opencdms/) (MIT)
