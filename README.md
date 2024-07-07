@@ -31,7 +31,7 @@ All of the applications in WeatherEye are underpinned by a free and open-source 
 ### CDMS
 
 `Status:` Installable from WeatherEye (SURFACE CDMS install)\
-`Powered by:` [SURFACE CDMS](https://github.com/opencdms/surface/)(GPL 3)
+`Powered by:` [SURFACE CDMS](https://github.com/opencdms/surface/) (GPL 3)
 
 WeatherEye uses SURFACE CDMS for it's Climate Data Management System implementation. SURFACE is a complete CDMS solution that can:
 - Set up multiple user accounts
@@ -46,14 +46,14 @@ WeatherEye uses SURFACE CDMS for it's Climate Data Management System implementat
 `Status:` Available, but not yet integrated\
 `Powered by:` [wis2box](https://github.com/wmo-im/wis2box) (Apache 2)
 
-WeatherEye has built in support to discover, publish and retrieve real-time data from the WIS2 network.
+WeatherEye has built-in support to discover, publish and retrieve real-time data from the WIS2 network.
 
 ## API
 
 `Status:` In development\
 `Powered by:` [OpenCDMS](https://github.com/opencdms/opencdms/) (MIT)
 
-Alongside other applications in the suite, WeatherEye provides a set of interfaces (APIs) that follow the standards being developed by WMO's Expert Team on Information Management.
+Alongside other applications in the suite, WeatherEye provides a set of interfaces (APIs) that follow the standards being developed by WMO's Expert Team on Information Management. As time progresses, the other WeatherEye components will increasingly uses these standardised interfaces in their implementation.
 
 ### Portal
 
@@ -67,9 +67,7 @@ The portal component uses NMHS-CMS, a shared template for the Wagtail (Python/Dj
 `Status:` Not yet available\
 `Powered by:` ---
 
-The tools component is unique to WeatherEye and provides migration, backup, audit
-
-A set of tools, unique to WeatherEye, to better manage the integrated set of applications, including tools to correctly update (migrate) database schema updates, backup, secure and audit the database
+The tools component is unique to WeatherEye and will provide migration, backup, security and other additions that may not be present in the individual solutions.
 
 ### Desktop
 
@@ -81,7 +79,7 @@ A set of tools, unique to WeatherEye, to better manage the integrated set of app
 
 ## Conclusion
 
-Roadmap and case study sections will be added in the near future giving more details of the software.
+Roadmap and case study sections will be added to this document in the near future giving more details of the software and timeframes until all components will be made fully available.
 
 
 https://github.com/weather-eye/weathereye
