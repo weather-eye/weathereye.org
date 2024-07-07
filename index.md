@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Homepage
+title: WeatherEye
 ---
 
-# WeatherEye
+# WeatherEye Overview
 
 WeatherEye is a powerful, integrated suite of free, open-source software created to better support the evolving needs and responsibilities of National Meteorological and Hydrological Services (NMHSs).
 
