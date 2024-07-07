@@ -1,6 +1,13 @@
+---
+layout: default
+title: Homepage
+---
+
 # WeatherEye
 
 WeatherEye is a powerful, integrated suite of free, open-source software created to better support the evolving needs and responsibilities of National Meteorological and Hydrological Services (NMHSs).
+
+<iframe src="https://player.vimeo.com/video/979965519&title=0&byline=0&portrait=0&autoplay=0&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 The suite consists of the following software (each administered through a tab in the WeatherEye admin interface):
 1. **DB**: A highly optimised relational database management system (RDBMS)
