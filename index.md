@@ -10,15 +10,16 @@ WeatherEye is a powerful, integrated suite of free, open-source software created
 <div style="width:100%"><iframe title="vimeo-player" src="https://player.vimeo.com/video/980442634?title=0&byline=0&portrait=0&autoplay=0&dnt=1" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></div>
 
 The suite consists of the following software (each administered through a tab in the WeatherEye admin interface):
-1. **DB**: A highly optimised relational database management system (RDBMS)
+1. **DB Admin**: A highly optimised relational database management system (RDBMS)
 2. **CDMS**: A system for correctly managing earth system observation data
 3. **WIS2**: Software for the discovery and exchange of real-time data using WIS2
 4. **API**: Secure, standardised APIs to enable the building of compliant reusable solutions
 6. **Portal**: A Content Management System (CMS), fully-integrated to work with the rest of the suite of applications to provide curated access to available data, products and services
+7. **Helpdesk**: A ticket tracking system to run a support desk
 
 In addition, the following solutions are planned:
 1. **Tools ⚒️**: A set of tools, unique to WeatherEye, to better manage the integrated set of applications, including tools to correctly update (migrate) database schemas, backup all data and to secure and audit applications
-2. **Desktop**: A forecaster desktop solution
+2. **Forecaster**: A forecaster desktop solution
 
 WeatherEye builds on existing, high-quality open-source software by integrating these into a single solution with a strong focus on optimising the experience for the user in order to provide accurate and timely weather, climate, and hydrological data management, products and services.
 
@@ -28,7 +29,7 @@ By adopting WeatherEye, NMHSs gain an easier solution for integrating essential 
 
 Each of the free, open-source components are described below.
 
-### DB
+### DB Admin
 
 `Status:` Available, but not yet integrated\
 `Powered by:` [CloudBeaver](https://github.com/dbeaver/cloudbeaver) (Apache 2) + PostgreSQL, TimeScaleDB, PostGIS
@@ -69,6 +70,13 @@ Alongside other applications in the suite, WeatherEye provides a set of interfac
 
 The portal component uses NMHS-CMS, a shared template for the Wagtail (Python/Django) Content Management System (CMS). WeatherEye will further extend NMHS-CMS to make it simple to add reusable "blocks" that are powered by WeatherEye API.
 
+### Helpdesk
+
+`Status:` Available, but not yet integrated\
+`Powered by:` [Django Helpdesk](https://github.com/django-helpdesk/django-helpdesk) (BSD-3)
+
+The weathereye ticket tracking system enables a NMHS to track internal tasks (and assign and monitor them) and also to provide a support desk for interacting with clients and the public.
+
 ### Tools ⚒️
 
 `Status:` Not yet available\
@@ -76,7 +84,7 @@ The portal component uses NMHS-CMS, a shared template for the Wagtail (Python/Dj
 
 The tools component is unique to WeatherEye and will provide migration, backup, security and other additions that may not be present in the individual solutions.
 
-### Desktop
+### Forecaster
 
 `Status:` Not yet available\
 `Powered by:` [MapStore](https://github.com/geosolutions-it/MapStore2/) (BSD 2)
