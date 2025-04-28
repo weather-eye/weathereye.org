@@ -11,11 +11,22 @@ The suite consists of the following main modules (each administered through a ta
 &nbsp;&nbsp;  🆕 Indicates development of new software required\
 &nbsp;&nbsp;  ✨ Indicates required solution is only partially solved and is still being considered 
 
+**WeatherEye Capsules:** Reusable framework-agnostic processes and components
+- OGC API - Processes
+- W3C Web Components
+- Gherkin tests for processes and components
+- Documentation
+
+**WeatherEye Config:**
+- [[WeatherEye OS]] (WOS) 📦 Install on a dedicated server that has no operating system installed (requires physical access to machine and USB memory stick)
+- [[WeatherEye Controller]] (WXC) 🆕 Install on an existing Linux server, including in the cloud (requires SSH access to remote machine)
+- [[WeatherEye Setup]] (WXS) 🆕 Install a version of the controller on your local MacOS, Windows or Linux desktop machine in order to provision new server infrastructure and then install and configure WeatherEye on those servers
+
 **WeatherEye Core:** Core services (server management and security)
-  - [[WeatherEye Serve]] 📦 
   - [[WeatherEye Auth]] 📦 
   - [[WeatherEye Backup]] ✨
-  - [[WeatherEye Monitor]] 📦 
+  - [[WeatherEye Monitor]] 📦
+  - [[WeatherEye Serve]] 📦  
   - [[WeatherEye Upgrade]] ✨
 
 **WeatherEye Datastore**: Data storage and management
@@ -39,14 +50,6 @@ The suite consists of the following main modules (each administered through a ta
 WeatherEye builds on existing, high-quality open-source software by integrating these into a single solution with a strong focus on optimising the experience for the user in order to provide accurate and timely weather, climate, and hydrological data management, products and services.
 
 By adopting WeatherEye, NMHSs gain an easier solution for integrating essential software applications and are also guaranteed an easier route to staying up-to-date with WMO advances, including standardisation on first mile data collection, compliance in CDMSs, the standardisation around web APIs and the move to WIS2.
-
-## Installing WeatherEye
-
-> ⚠️ **Caution:** Not Implemented
-
-- [[WeatherEye OS]] (WOS) 📦 Install on a dedicated server that has no operating system installed (requires physical access to machine and USB memory stick)
-- [[WeatherEye Controller]] (WXC) 🆕 Install on an existing Linux server, including in the cloud (requires SSH access to remote machine)
-- [[WeatherEye Setup]] (WXS) 🆕 Install a version of the controller on your local MacOS, Windows or Linux desktop machine in order to provision new server infrastructure and then install and configure WeatherEye on those servers
 
 <br><br>
 
