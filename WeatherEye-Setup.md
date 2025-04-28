@@ -1,6 +1,6 @@
 > ⚠️ **Caution:** Not Implemented
 
-If you don't yet have server infrastructure to install WeatherEye on then you can install WeatherEye Setup locally as an installable app on macOS, Windows or Linux Desktop. This provides access to the WeatherEye Controller Web UI to help [provision](https://www.redhat.com/en/topics/automation/what-is-provisioning infrastructure) the require server(s).
+If you don't yet have server infrastructure to install WeatherEye on then you can install WeatherEye Setup locally as an installable app on macOS, Windows or Linux Desktop. This provides access to the [[WeatherEye Controller]] Web UI to help [provision](https://www.redhat.com/en/topics/automation/what-is-provisioning) the require server(s).
 
 ---
 *Powered by:*
