@@ -2,4 +2,4 @@
 
 ---
 *Powered by:*
-- [OpenCDMS](https://www.opencdms.org/) (in turn powered by [pygeoapi](http://pygeoapi.io))
+- [OpenCDMS](https://github.com/opencdms/opencdms) (MIT) - in turn powered by [pygeoapi](https://github.com/geopython/pygeoapi) (MIT) 
