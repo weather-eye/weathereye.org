@@ -31,7 +31,6 @@ The suite consists of the following main modules (each administered through a ta
   - [[WeatherEye API]] 🆕 Secure, standardised APIs to enable the building of compliant reusable solutions
   - [[WeatherEye DCPS]] 🆕 A Data Collection and Process System (DCPS) responsible for Extracting data from Automatic Weather Stations (AWS), Transforming data (aggregation and encoding) and Loading the data into other systems including the CDMS and sharing on WIS2
   - [[WeatherEye Broker]] 📦 Software for the discovery and exchange of real-time data on WIS2 using mqtt
-  - [[WeatherEye Scheduler]] 📦 
 
 **WeatherEye Portal**: Customer facing applications
   - [[WeatherEye CMS]] 📦 A Content Management System (CMS), fully-integrated to work with the rest of the suite of applications to provide curated access to available data, products and services - ClimWeb
