@@ -47,6 +47,7 @@ The suite consists of the following main modules (each administered through a ta
 **WeatherEye Portal**: Customer facing applications
   - [[WeatherEye CMS]] 📦 A Content Management System (CMS), fully-integrated to work with the rest of the suite of applications to provide curated access to available data, products and services - ClimWeb
   - [[WeatherEye Helpdesk]] 📦 A ticket tracking system to run a support desk (for internal and external requests)
+  - [[WeatherEye Warn]]
 
 WeatherEye builds on existing, high-quality open-source software by integrating these into a single solution with a strong focus on optimising the experience for the user in order to provide accurate and timely weather, climate, and hydrological data management, products and services.
 
