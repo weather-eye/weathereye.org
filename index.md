@@ -7,7 +7,7 @@ WeatherEye is a powerful, integrated suite of free, open-source software created
 The suite consists of the following main modules (each administered through a tab in the WeatherEye admin interface):
 
 - [[WeatherEye Core]]: Core services
-  - [[WeatherEye Serve]]: nginx
+  - [[WeatherEye Serve]]
   - [[WeatherEye Auth]]
   - [[WeatherEye Backup]]
   - [[WeatherEye Monitor]]: prometheus
