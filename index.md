@@ -7,9 +7,11 @@ WeatherEye is a powerful, integrated suite of free, open-source software created
 The suite consists of the following software (each administered through a tab in the WeatherEye admin interface):
 - [[WeatherEye API]]: Secure, standardised APIs to enable the building of compliant reusable solutions
 - [[WeatherEye CDMS]]: A system for correctly managing earth system observation data
-- [[WeatherEye DBA]]: Database Administrator A highly optimised relational database management system (RDBMS)
+- [[WeatherEye DBA]]: A highly optimised relational database management system with admin tools (RDBMS)
+- [[WeatherEye DCPS]]: A Data Collection and Process System (DCPS) responsible for Extracting data from Automatic Weather Stations (AWS), Transforming data (aggregation and encoding) and Loading the data into other systems including the CDMS and sharing on WIS2
 - [[WeatherEye Helpdesk]]: A ticket tracking system to run a support desk
-- [[WeatherEye Node]]: Software for the discovery and exchange of real-time data using WIS2
+- [[WeatherEye Hub]]: A manage filestore using S3 buckets
+- [[WeatherEye Broker]]: Software for the discovery and exchange of real-time data on WIS2 using mqtt
 - [[WeatherEye Portal]]: A Content Management System (CMS), fully-integrated to work with the rest of the suite of applications to provide curated access to available data, products and services
 
 In addition, the following solutions are planned:
