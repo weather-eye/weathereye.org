@@ -12,10 +12,11 @@ The suite consists of the following main modules (each administered through a ta
 &nbsp;&nbsp;  ✨ Indicates required solution is only partially solved and is still being considered 
 
 **WeatherEye Capsules:** Reusable framework-agnostic processes and components
-- OGC API - Processes
-- W3C Web Components
-- Gherkin tests for processes and components
-- Documentation
+- [[WeatherEye Capsules]] consist of
+  - OGC API - Processes
+  - W3C Web Components
+  - Gherkin tests for processes and components
+  - Documentation
 
 **WeatherEye Config:**
 - [[WeatherEye OS]] (WOS) 📦 Install on a dedicated server that has no operating system installed (requires physical access to machine and USB memory stick)
