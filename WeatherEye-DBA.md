@@ -2,5 +2,5 @@
 
 ---
 *Powered by:*
-- PostgreSQL (TimescaleDB, PostGIS)
-- CloudBeaver
+- [PostgreSQL](https://www.postgresql.org/) ([TimescaleDB](https://github.com/timescale/timescaledb), [PostGIS](https://postgis.net/))
+- [CloudBeaver](https://github.com/dbeaver/cloudbeaver)
