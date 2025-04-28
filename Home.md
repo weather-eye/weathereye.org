@@ -15,7 +15,7 @@ The suite consists of the following main modules (each administered through a ta
   - [[WeatherEye Auth]] 📦 
   - [[WeatherEye Backup]] ✨
   - [[WeatherEye Monitor]] 📦
-  - [[WeatherEye Serve]] 📦  
+  - [[WeatherEye Proxy]] 📦  
   - [[WeatherEye Upgrade]] ✨
 
 **WeatherEye Capsules:** Reusable framework-agnostic processes and components
