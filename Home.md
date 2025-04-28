@@ -20,7 +20,7 @@ The suite consists of the following main modules (each administered through a ta
 
 - [[WeatherEye Desktop]]
   - [[WeatherEye Forecaster Desktop]] A forecaster desktop solution
-  - [[WeatherEye Forecast Management]] An admin tool for forecasters to manage information displayed on the public website 
+  - [[WeatherEye Information Management]] An admin tool for forecasters to manage information displayed on the public website 
 
 - [[WeatherEye Hub]]
   - [[WeatherEye API]]: Secure, standardised APIs to enable the building of compliant reusable solutions
