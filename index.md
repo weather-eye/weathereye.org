@@ -4,19 +4,31 @@
 
 WeatherEye is a powerful, integrated suite of free, open-source software created to better support the evolving needs and responsibilities of National Meteorological and Hydrological Services (NMHSs).
 
-The suite consists of the following software (each administered through a tab in the WeatherEye admin interface):
-- [[WeatherEye API]]: Secure, standardised APIs to enable the building of compliant reusable solutions
-- [[WeatherEye CDMS]]: A system for correctly managing earth system observation data
-- [[WeatherEye DBA]]: A highly optimised relational database management system with admin tools (RDBMS)
-- [[WeatherEye DCPS]]: A Data Collection and Process System (DCPS) responsible for Extracting data from Automatic Weather Stations (AWS), Transforming data (aggregation and encoding) and Loading the data into other systems including the CDMS and sharing on WIS2
-- [[WeatherEye Helpdesk]]: A ticket tracking system to run a support desk
-- [[WeatherEye Hub]]: A manage filestore using S3 buckets
-- [[WeatherEye Broker]]: Software for the discovery and exchange of real-time data on WIS2 using mqtt
-- [[WeatherEye Portal]]: A Content Management System (CMS), fully-integrated to work with the rest of the suite of applications to provide curated access to available data, products and services
+The suite consists of the following main modules (each administered through a tab in the WeatherEye admin interface):
 
-In addition, the following solutions are planned:
+- [[WeatherEye Core]]: Core services
+    - [[WeatherEye ...]: nginx
+    - [[WeatherEye Auth]]
+    - [[WeatherEye Backup]]
+    - [[WeatherEye Monitor]]: prometheus
+    - [[WeatherEye Upgrade]] (includes rollback)
+
+- [[WeatherEye Datastore]]
+    - [[WeatherEye CDMS]]: A system for correctly managing earth system observation data
+    - [[WeatherEye DBA]]: A highly optimised relational database management system with admin tools (RDBMS)
+    - [[WeatherEye Filestore]]: A manage filestore using S3 buckets (MioIO can allow FTP/SFTP access)
 
 - [[WeatherEye Desktop]]: A forecaster desktop solution
+
+- [[WeatherEye Hub]]
+    - [[WeatherEye API]]: Secure, standardised APIs to enable the building of compliant reusable solutions
+    - [[WeatherEye DCPS]]: A Data Collection and Process System (DCPS) responsible for Extracting data from Automatic Weather Stations (AWS), Transforming data (aggregation and encoding) and Loading the data into other systems including the CDMS and sharing on WIS2
+    - [[WeatherEye Broker]]: Software for the discovery and exchange of real-time data on WIS2 using mqtt
+    - [[WeatherEye Scheduler]]: 
+
+- [[WeatherEye Portal]] (customer facing)
+    - [[WeatherEye CMS]]: A Content Management System (CMS), fully-integrated to work with the rest of the suite of applications to provide curated access to available data, products and services - ClimWeb
+    - [[WeatherEye Helpdesk]]: A ticket tracking system to run a support desk (for internal and external requests)
 
 WeatherEye builds on existing, high-quality open-source software by integrating these into a single solution with a strong focus on optimising the experience for the user in order to provide accurate and timely weather, climate, and hydrological data management, products and services.
 
