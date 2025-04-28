@@ -4,7 +4,7 @@ WeatherEye Controller (wxc) is a single codebase, implemented using the Python T
 
 [[wxc]]: Controller command line tool / TUI
 
-The command line tool includes the following modules:
+The command line tool includes the following modules which can also be accessed through WeatherEye Admin:
 - [[wx-upgrade]]
 - [[wx-rollback]]
 - [[wx-backup]]
