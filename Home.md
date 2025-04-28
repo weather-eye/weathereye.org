@@ -36,7 +36,7 @@ The suite consists of the following main modules (each administered through a ta
   - [[WeatherEye Filestore]] 📦 A manage filestore using S3 buckets (MioIO can allow FTP/SFTP access)
 
 **WeatherEye Forecast**: Forecaster applications
-  - [[WeatherEye Desktop]] 🆕 A forecaster desktop solution
+  - [[WeatherEye Forecaster Desktop]] 🆕 A forecaster desktop solution
   - [[WeatherEye Information Management]] 🆕 An admin tool for forecasters to manage information displayed on the public website 
 
 **WeatherEye Hub**: Central Data Hub
@@ -45,6 +45,7 @@ The suite consists of the following main modules (each administered through a ta
   - [[WeatherEye Broker]] 📦 Software for the discovery and exchange of real-time data on WIS2 using mqtt
 
 **WeatherEye Portal**: Customer facing applications
+  - [[WeatherEye App]] An installable mobile app providing essential information and WeatherEye Warn alerts
   - [[WeatherEye CMS]] 📦 A Content Management System (CMS), fully-integrated to work with the rest of the suite of applications to provide curated access to available data, products and services - ClimWeb
   - [[WeatherEye Helpdesk]] 📦 A ticket tracking system to run a support desk (for internal and external requests)
   - [[WeatherEye Warn]]
