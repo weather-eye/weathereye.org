@@ -32,7 +32,7 @@ The suite consists of the following main modules (each administered through a ta
 
 **WeatherEye Datastore**: Data storage and management
   - [[WeatherEye CDMS]] 📦 A system for correctly managing earth system observation data
-  - [[WeatherEye DBA]] 📦 A highly optimised relational database management system with admin tools (RDBMS)
+  - [[WeatherEye RDBMS]] 📦 A highly optimised relational database management system with admin tools (RDBMS)
   - [[WeatherEye Filestore]] 📦 A manage filestore using S3 buckets (MioIO can allow FTP/SFTP access)
 
 **WeatherEye Forecast**: Forecaster applications
