@@ -35,8 +35,8 @@ The suite consists of the following main modules (each administered through a ta
   - [[WeatherEye DBA]] 📦 A highly optimised relational database management system with admin tools (RDBMS)
   - [[WeatherEye Filestore]] 📦 A manage filestore using S3 buckets (MioIO can allow FTP/SFTP access)
 
-**WeatherEye Desktop**: Forecaster applications
-  - [[WeatherEye Forecaster Desktop]] 🆕 A forecaster desktop solution
+**WeatherEye Forecast**: Forecaster applications
+  - [[WeatherEye Desktop]] 🆕 A forecaster desktop solution
   - [[WeatherEye Information Management]] 🆕 An admin tool for forecasters to manage information displayed on the public website 
 
 **WeatherEye Hub**: Central Data Hub
