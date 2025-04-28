@@ -45,9 +45,9 @@ By adopting WeatherEye, NMHSs gain an easier solution for integrating essential 
 
 > ⚠️ **Caution:** Not Implemented
 
-- [[WeatherEye OS]] 📦 Install on a dedicated server that has no operating system installed (requires physical access to machine and USB memory stick)
-- [[WeatherEye Controller]] 🆕 Install on an existing Linux server, including in the cloud (requires SSH access to remote machine)
-- [[WeatherEye Setup]] 🆕 Install a version of the controller on your local MacOS, Windows or Linux desktop machine in order to provision new server infrastructure and then install and configure WeatherEye on those servers
+- [[WeatherEye OS]] (WOS) 📦 Install on a dedicated server that has no operating system installed (requires physical access to machine and USB memory stick)
+- [[WeatherEye Controller]] (WXC) 🆕 Install on an existing Linux server, including in the cloud (requires SSH access to remote machine)
+- [[WeatherEye Setup]] (WXS) 🆕 Install a version of the controller on your local MacOS, Windows or Linux desktop machine in order to provision new server infrastructure and then install and configure WeatherEye on those servers
 
 <br><br>
 
