@@ -8,7 +8,7 @@ WeatherEye is a powerful, integrated suite of free, open-source software created
 
 | Name | Capability | Desc | Owner | Existing FOSS used |
 |------|------------|------|-------|--------------------|
-| [[WeatherEye DCPS]] | Data Collection and Processing System (DCPS) | Extracts data from AWS, Transforms data, Loads data for other services | TBD ([wmo-cop](https://github.com/wmo-cop)?) | Apache Avro, Dagster, Python, MinIO |
+| [[WeatherEye DCPS]] | Data Collection and Processing System (DCPS) | Extracts data from AWS, Transforms data, Loads data for other services | TBD | Apache Avro, Dagster, Python, MinIO |
 | [[WeatherEye Broker]] | WIS2 Node | A broker to discover, publish and retrieve real-time data to/from the WIS2 network | [WMO](https://github.com/World-Meteorological-Organization) | wis2box, Python, MioIO, docker, mosquitto (mqtt) |
 | [[WeatherEye CMS]] | Content Management System (CMS) | Customisation to Wagtail for NMHSs| [wmo-raf](https://github.com/wmo-raf) | Python, Django, Wagtail, PostgreSQL |
 | [[WeatherEye CDMS]] | Climate Data Management System (CDMS) | System for correctly managing and archiving earth system observation data | Currently [openwis](https://github.com/openwis) | Django, Python, PostgreSQL, TimescaleDB, PostGIS |
