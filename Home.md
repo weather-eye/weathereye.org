@@ -25,7 +25,7 @@ The suite consists of the following main modules (each administered through a ta
 
 **WeatherEye Admin:** Core admin services (server management and security)
   - [[WeatherEye Auth]] 📦 
-  - [[WeatherEye Backup]] ✨
+  - [[WeatherEye Backup]] 📦
   - [[WeatherEye Monitor]] 📦
   - [[WeatherEye Proxy]] 📦  
   - [[WeatherEye Upgrade]] ✨
