@@ -13,10 +13,10 @@ wxc is aware of environments that it can install to including:
   - [[WeatherEye Admin]] Django project (determining which Django apps are running in a single Django instance)
   - Other WeatherEye application configurations
 
-The command line tool includes the following modules which can also be accessed through WeatherEye Admin:
-- [[wx-upgrade]]
-- [[wx-rollback]]
-- [[wx-backup]]
+The `wxc` command line tool includes the following modules which can also be accessed through [[WeatherEye Admin]]:
+- [[WeatherEye Upgrade]]
+- [[WeatherEye Rollback]]
+- [[WeatherEye Backup]]
 
 ---
 *Powered by:*
