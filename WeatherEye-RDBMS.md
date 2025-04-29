@@ -5,7 +5,9 @@ All of the applications in WeatherEye are underpinned by a free and open-source 
 In addition to managing the data with [[WeatherEye CDMS]], the WeatherEye stack also includes CloudBeaver for direct database access through a powerful web GUI.
 
 ---
-*Status*: Available, but not yet integrated\
+*Status*:
+- Available, but not yet integrated
+
 *Powered by:*
 - [PostgreSQL](https://github.com/postgres/postgres) ([Postgres](https://opensource.org/license/postgresql) / [BSD-style](https://www.postgresql.org/about/licence/)) including [TimescaleDB](https://github.com/timescale/timescaledb) ([Apache 2.0](https://www.timescale.com/legal/licenses)) and [PostGIS](https://github.com/postgis/postgis) (GPL2)
 - [CloudBeaver](https://github.com/dbeaver/cloudbeaver) (Apache 2.0)
