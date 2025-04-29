@@ -6,7 +6,7 @@ In addition to managing the data with [[WeatherEye CDMS]], the WeatherEye stack 
 
 ---
 *Status*:
-- Available, but not yet integrated
+- Available, but not yet integrated into WeatherEye
 
 *Powered by:*
 - [PostgreSQL](https://github.com/postgres/postgres) ([Postgres](https://opensource.org/license/postgresql) / [BSD-style](https://www.postgresql.org/about/licence/)) including [TimescaleDB](https://github.com/timescale/timescaledb) ([Apache 2.0](https://www.timescale.com/legal/licenses)) and [PostGIS](https://github.com/postgis/postgis) (GPL2)
