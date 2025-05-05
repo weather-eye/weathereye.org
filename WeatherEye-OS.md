@@ -11,5 +11,5 @@ WOS can be downloaded to memory stick and installed on physical server infrastru
 ---
 *Powered by*:
 - Debian
-- [PROXMOX](https://www.proxmox.com)
+- [PROXMOX](https://www.proxmox.com) (AGPL)
 - [[WeatherEye Controller]]
