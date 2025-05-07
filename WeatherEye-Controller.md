@@ -1,10 +1,10 @@
 > ⚠️ **Caution:** Not Implemented
 
-WeatherEye Controller (wxc) is a single codebase, implemented using the Python Textualize package, that provides a Command Line Interface (CLI), Text User Interface (TUI) and Web UI for [provisioning](https://www.redhat.com/en/topics/automation/what-is-provisioning) (Terraform), [orchestrating](https://www.redhat.com/en/topics/automation/what-is-orchestration) (Ansible) and configuring WeatherEye software on Linux servers.
+WeatherEye Controller (wx) is a single codebase, implemented using the Python Textualize package, that provides a Command Line Interface (CLI), Text User Interface (TUI) and Web UI for [provisioning](https://www.redhat.com/en/topics/automation/what-is-provisioning) (Terraform), [orchestrating](https://www.redhat.com/en/topics/automation/what-is-orchestration) (Ansible) and configuring WeatherEye software on Linux servers.
 
-[[wxc]]: Controller command line tool / TUI (used by [[WeatherEye OS]] and [[WeatherEye Setup]])
+[[wx]]: Controller command line tool / TUI (used by [[WeatherEye OS]] and [[WeatherEye Setup]])
 
-wxc is aware of environments that it can install to including:
+`wx` is aware of environments that it can install to including:
 1. Provisioning
     - Infrastructure Providers (e.g. Locally [Proxmox](https://github.com/Telmate/terraform-provider-proxmox) or [VMWare](https://registry.terraform.io/providers/hashicorp/vsphere/latest). Remote: Amazon Web Services, Google Cloud Platform etc. see [supported providers](https://registry.terraform.io/search/providers)
 2. Orchestrating
