@@ -13,7 +13,7 @@ WeatherEye Controller (wx) is a single codebase, implemented using the Python Te
     - [[WeatherEye Admin]] Django project (configuring which Django apps are running in a single Django instance)
     - Other WeatherEye application configurations
 
-The `wxc` command line tool includes the following modules which can also be accessed through [[WeatherEye Admin]]:
+The `wx` command line tool includes the following modules which can also be accessed through [[WeatherEye Admin]]:
 - [[WeatherEye Upgrade]]
 - [[WeatherEye Rollback]]
 - [[WeatherEye Backup]]
