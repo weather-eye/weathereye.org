@@ -22,5 +22,5 @@ The `wx` command line tool includes the following modules which can also be acce
 *Powered by:*
 - [Terraform](https://developer.hashicorp.com/terraform) for [server provisioning](https://www.redhat.com/en/topics/automation/what-is-provisioning)
 - [Ansible](https://docs.ansible.com/) for [server orchestration](https://www.redhat.com/en/topics/automation/what-is-orchestration)
-- [Textualize](https://www.textualize.io/) - An application framework for CLI, TUI and WebUI in a single codebase
+- [Textualize](https://www.textualize.io/) (MIT) - An application framework for CLI, TUI and WebUI in a single codebase
 - [pipx](https://pipx.pypa.io/stable/) - A way to install Python CLI's as a tool in a contained environment
