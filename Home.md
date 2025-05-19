@@ -34,7 +34,7 @@ The suite consists of the following main modules (each administered through a ta
 - [[WeatherEye Capsules]] ✨ consist of
   - OGC API - Processes
   - W3C Web Components
-  - Gherkin tests for processes and components
+  - Gherkin tests for: Processes (python [behave](https://github.com/behave/behave)), Web components ([cucumber-js](https://github.com/cucumber/cucumber-js)) and APIs ([karate DSL](https://github.com/karatelabs/karate))
   - Documentation
 
 **WeatherEye Config:**
