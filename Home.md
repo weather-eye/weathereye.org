@@ -81,4 +81,4 @@ The WeatherEye docs are build from this wiki. WeatherEye follows Documentation D
 
 </details>
 
-[[links]]
+[[🔗|links]]
