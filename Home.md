@@ -80,3 +80,5 @@ The WeatherEye docs are build from this wiki. WeatherEye follows Documentation D
 > This is an example describing a feature that has not yet been implemented
 
 </details>
+
+[[links]]
