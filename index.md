@@ -7,4 +7,4 @@ title: WeatherEye
 
 ![WeatherEye Architecture](NMHS_architecture-Shared_services.png)
 
-Documentation is available on the [WeatherEye wiki](https://github.com/weather-eye/weathereye/wiki)
+Documentation is available on the [WeatherEye wiki](https://github.com/weather-eye/weathereye.org/wiki)
